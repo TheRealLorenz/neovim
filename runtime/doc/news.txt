@@ -157,6 +157,7 @@ LUA
 • |vim.net.request()| can specify custom headers by passing `opts.headers`.
 • |vim.filetype.inspect()| returns a copy of the internal tables used for
   filetype detection.
+• |vim.fs.find()| supports glob matching on filenames.
 • Added `__eq` metamethod to |vim.VersionRange|. 2 distinct but representing
 the same range instances now compare equal.
 
